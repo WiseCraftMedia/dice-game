@@ -1,41 +1,290 @@
-.container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
+/* XXL */
+@media (min-width: 1201px) {
+  .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .dice {
+    text-align: center;
+    display: inline-block;
+  }
+
+  body {
+    background-color: #393e46;
+  }
+
+  h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 6rem;
+    color: #4ecca3;
+  }
+
+  p {
+    font-size: 2rem;
+    color: #4ecca3;
+    font-family: "Indie Flower", cursive;
+  }
+
+  img {
+    width: 20vw;
+  }
+
+  footer {
+    margin-top: 5%;
+    color: #eeeeee;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+  }
+
+  .hp1,
+  .hp2,
+  #winner {
+    display: inline-block;
+
+    text-align: center;
+  }
+
+  button {
+    margin-top: 5vh;
+    border-radius: 0.5vw;
+  }
+  div.dice {
+    padding: 0 1vw;
+  }
+}
+/* XL */
+@media (max-width: 1200px) {
+  .container {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+  }
+
+  .dice {
+    text-align: center;
+    display: inline-block;
+  }
+
+  body {
+    background-color: #393e46;
+  }
+
+  h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #4ecca3;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: #4ecca3;
+    font-family: "Indie Flower", cursive;
+  }
+
+  img {
+    width: 30vw;
+    margin-left: 3vw;
+  }
+
+  footer {
+    margin-top: 5%;
+    color: #eeeeee;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+  }
+
+  .hp1,
+  .hp2,
+  #winner {
+    display: inline-block;
+
+    text-align: center;
+  }
+
+  button {
+    margin-top: 5vh;
+    border-radius: 0.5vw;
+  }
+}
+/* M */
+@media (max-width: 1024px) {
+  .container {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+  }
+
+  .dice {
+    text-align: center;
+    display: inline-block;
+  }
+
+  body {
+    background-color: #393e46;
+  }
+
+  h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #4ecca3;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: #4ecca3;
+    font-family: "Indie Flower", cursive;
+  }
+
+  img {
+    width: 30vw;
+    margin-left: 3vw;
+  }
+
+  footer {
+    margin-top: 5%;
+    color: #eeeeee;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+  }
+
+  .hp1,
+  .hp2,
+  #winner {
+    display: inline-block;
+
+    text-align: center;
+  }
+
+  button {
+    margin-top: 5vh;
+    border-radius: 0.5vw;
+  }
 }
 
-.dice {
-  text-align: center;
-  display: inline-block;
+/* S */
+@media (max-width: 768px) {
+  .container {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+  }
 
+  .dice {
+    text-align: center;
+    display: inline-block;
+  }
+
+  body {
+    background-color: #393e46;
+  }
+
+  h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 2.5rem;
+    color: #4ecca3;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: #4ecca3;
+    font-family: "Indie Flower", cursive;
+  }
+
+  img {
+    width: 30vw;
+    margin-left: 3vw;
+  }
+
+  footer {
+    margin-top: 5%;
+    color: #eeeeee;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+  }
+
+  .hp1,
+  .hp2,
+  #winner {
+    display: inline-block;
+
+    text-align: center;
+  }
+
+  button {
+    margin-top: 5vh;
+    border-radius: 0.5vw;
+  }
 }
 
-body {
-  background-color: #393E46;
+/* XS */
+@media (max-width: 480px) {
+  .container {
+    width: 98vw;
+    margin: auto;
+    text-align: center;
+  }
+
+  .dice {
+    text-align: center;
+    display: inline-block;
+  }
+
+  body {
+    background-color: #393e46;
+  }
+
+  h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 3rem;
+    color: #4ecca3;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #4ecca3;
+    font-family: "Indie Flower", cursive;
+  }
+
+  img {
+    width: 40vw;
+  }
+
+  footer {
+    margin-top: 3%;
+    color: #eeeeee;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+  }
+
+  .hp1,
+  .hp2,
+  #winner {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .p2 {
+    margin-left: 5vw;
+  }
+  button {
+    margin-top: 5vh;
+    border-radius: 0.5vw;
+  }
 }
-
-h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
-}
-
-p {
-  font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
-}
-
-img {
-  width: 80%;
-}
-
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+@media (max-width: 473px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
